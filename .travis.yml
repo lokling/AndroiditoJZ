@@ -26,6 +26,9 @@ android:
 notifications:
   email: false
 
+script:
+  - ./gradlew assemble
+
 #before_install:
 #  - android list targets
 #  - echo no | android create avd --force -n test -t "Google Inc.:Google APIs:21" --abi google_apis/armeabi-v7a
